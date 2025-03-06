@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniil - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="./index.html"> <span class="logo">Data Scientist</span></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class='hero-section' id="home">
+            <div>
+                <div>
+                    <h4 title="Hello! How are you?">Hi there!</h4>
+                    <h2 class="hero-section__title">I am <span>Daniil Pipa</span></h2>
+                    <p class="hero-section__desc">I analyze data, uncover insights, and help drive informed decisions. Proficient in Python, SQL, Power BI, and machine learning models. Open to new opportunities and ready to tackle complex challenges.</p>
+                </div>
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100012633222439">
+                            <i class="fa-brands fa-facebook" ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/danzillo95">
+                            <i class="fa-brands fa-github" ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/alto-cielo-391675105/">
+                            <i class="fa-brands fa-linkedin" ></i>
+                        </a>
+                    </li>
+                
+                </ul>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        Hire me
+                    </button>
+                    <button class="btn btn-dark-outlined">
+                        <a href="" download=''>
+                            Download CV
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="random pic.jpeg" alt="no pic">
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <div class="about-img">
+                <img src="random pic.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h4>About me</h4>
+                <h2>I am data scientist & <br><span>data analytics
+                </span></h2>
+                <!-- Add About me data -->
+                <p>Data Scientist
+
+                    Hi there! I’m Daniil, a passionate data scientist dedicated to uncovering hidden patterns in data, building analytical models, and helping drive informed decision-making.
+                    
+                    I specialize in Python, SQL, Power BI, and machine learning models. Constantly learning new technologies, I strive to apply them in real-world scenarios.
+                    
+                    Throughout my journey, I’ve worked on various projects involving data analysis, reporting, and optimizing business solutions. You can explore some of them right here in my portfolio.
+                    
+                    I’m always open to new opportunities and ready to tackle complex challenges!</p>
+                <button class="btn btn-primary"><a href="https://github.com/danzillo95">Know more</a></button>
+            </div>
+        </section>
+        <section class="projects-section" id="projects">
+            <h2>My <span>projects</span></h2>
+            <div class="projects-cards">
+                <div class="projects-card-box">
+                    <div class="projects-card-box__icons">
+                        <!-- Add project pic -->
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>Stroke Prediction Model</h4>
+                        <p>A machine learning model that predicts the likelihood of a stroke based on medical data. It utilizes Logistic Regression, Random Forest Classifier, and Support Vector Classifier to achieve accurate predictions.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined"><a href="https://github.com/danzillo95/stroke_predict_LogRec_RandForClasifier_SVC">
+                            View <i class="fa-solid fa-external-link" ></i>
+                        </a></button>
+                    </div>
+                </div>
+                <!-- Project2 -->
+                <div class="projects-card-box">
+                    <div class="projects-card-box__icons">
+                        <!-- Add project pic -->
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>Image Classification Model</h4>
+                        <p>A deep learning model built with TensorFlow for recognizing objects in images. It leverages CNN architectures to categorize various objects with high accuracy.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://github.com/danzillo95/tf_classification_model">
+                                View <i class="fa-solid fa-external-link" ></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- Project3 -->
+                <div class="projects-card-box">
+                    <div class="projects-card-box__icons">
+                        <!-- Add project pic -->
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <div class="projects-card-box__desc">
+                        <h4>Real-Time Emotion Recognition</h4>
+                        <p>An AI-powered model that detects and classifies human emotions in real-time using facial expressions. Ideal for applications in sentiment analysis and interactive systems.</p>
+                    </div>
+                    <div class="projects-card-box__buttons">
+                        <button class="btn btn-dark-outlined">
+                            <a href="https://github.com/danzillo95/live_emotion_recognition_model">
+                               View <i class="fa-solid fa-external-link" ></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>Me</span></h2>
+            <form action="" id = 'contactForm'>
+                <div>
+                    <input type="text" name="name" placeholder="Full name" required>
+                </div>
+                <div> 
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" rows="5" placeholder="Type message"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary">
+                        SEND MESSAGE
+                    </button>
+                </div>
+            </form>
+            <div class="contact__github">
+                <button class="n">bt
+                    <a href="https://github.com/danzillo95">
+                        <i class="fa-brands fa-github" ></i>
+                    </a>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 - <a href="https://github.com/danzillo95" target="_blank">Daniil</a> - All Rights
+            Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
