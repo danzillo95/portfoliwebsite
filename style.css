@@ -97,21 +97,22 @@ section.hero-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 350px; /* Подгоняем размер */
+    max-width: 350px;
     max-height: 400px;
     overflow: hidden;
-    border-radius: 15px;
-    margin-left: 50px; /* Добавляем отступ, чтобы не прилипало к тексту */
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    box-shadow: 3px 5px 30px #03506e;
+    margin-left: 50px;
 }
 
 .hero-img img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
-/* Для мобильных устройств */
 @media only screen and (max-width: 768px) {
     .hero-section {
         flex-direction: column;
@@ -123,7 +124,7 @@ section.hero-section{
     .hero-img {
         max-width: 250px;
         max-height: 300px;
-        margin-left: 0; /* Центрируем */
+        margin-left: 0;
     }
 }
 
