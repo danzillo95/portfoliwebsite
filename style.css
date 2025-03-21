@@ -97,21 +97,22 @@ section.hero-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 350px;
-    max-height: 400px;
+    max-width: 380px; 
+    max-height: 280px; 
     overflow: hidden;
-    border-radius: 50%;
-    border: 3px solid var(--primary);
-    box-shadow: 3px 5px 30px #03506e;
-    margin-left: 50px;
+    border-radius: 20px; 
+    border: 3px solid var(--primary); 
+    box-shadow: 3px 5px 20px #03506e; 
+    margin-left: 50px; 
 }
 
 .hero-img img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px; 
 }
+
 
 @media only screen and (max-width: 768px) {
     .hero-section {
@@ -122,8 +123,8 @@ section.hero-section{
     }
 
     .hero-img {
-        max-width: 250px;
-        max-height: 300px;
+        max-width: 280px;
+        max-height: 200px;
         margin-left: 0;
     }
 }
