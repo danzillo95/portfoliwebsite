@@ -93,9 +93,30 @@ section.hero-section{
     line-height: 1.5;
 }
 
-.hero-img img{
-    margin-left: 330px;
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px; /* Ограничиваем размер контейнера */
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 15px; /* Закругляем углы */
+}
+
+.hero-img img {
+    width: 100%; /* Подгоняем по ширине */
+    height: auto; /* Автоматическая высота */
+    object-fit: cover; /* Обрезаем лишнее без искажения */
     border-radius: 15px;
+    margin-left: 0; /* Убираем лишний отступ */
+}
+
+/* Для мобильных устройств */
+@media only screen and (max-width: 768px) {
+    .hero-img {
+        max-width: 250px;
+        max-height: 300px;
+    }
 }
 
 .social-icons {
